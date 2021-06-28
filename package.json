@@ -1,0 +1,21 @@
+{
+  "name": "jscad_export_bug_20210628",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "node out/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jscad/modeling": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "typescript": "^4.3.4"
+  }
+}
